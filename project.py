@@ -17,3 +17,8 @@ class Person(object):
 
     def make_sad(self) -> None:
         self.happiness -= 1
+
+
+dc = Person(name="Dylan Craggs", gender="Male", age=69, height=100)
+dc.make_happy
+dc.make_sad
